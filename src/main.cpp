@@ -8,7 +8,7 @@
 
 // --- KONFIGURASI ---
 #define RELAY_PIN 4 // Pin untuk Relay Sirine / Solenoid Pintu
-const char* mqtt_server = "test.mosquitto.org"; // Ganti dengan mqtt.lindu.id nanti
+const char* mqtt_server = "192.168.68.105"; // Ganti dengan mqtt.lindu.id nanti
 const int mqtt_port = 1883;
 const char* topic_alarm = "lindu/actuator/cmd/all";
 
